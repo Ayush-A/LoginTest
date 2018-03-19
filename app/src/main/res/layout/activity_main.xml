@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.logintest.MainActivity">
+
+    <!-- TODO: Add an image to the background -->
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:alpha="30"-->
+    <!--/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nameEditTextView"
+        android:layout_alignLeft="@+id/nameEditTextView"
+        android:layout_alignStart="@+id/nameEditTextView"
+        android:layout_marginBottom="48dp"
+        android:text="@string/name"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/nameEditTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="80dp"
+        android:hint="@string/name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/passwordEditTextView"
+        android:layout_alignLeft="@+id/passwordEditTextView"
+        android:layout_alignStart="@+id/passwordEditTextView"
+        android:layout_marginBottom="48dp"
+        android:text="@string/password"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/passwordEditTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="170dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/login" />
+
+</RelativeLayout>
