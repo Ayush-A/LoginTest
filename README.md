@@ -1,1 +1,1 @@
-Tests the default login credentials.
+Tests the default login credentials in an android application.
